@@ -119,6 +119,6 @@ new ssh2.Server({
 	.on('end', function() {
 		consoleLog('client: disconnected');
 	});
-}).listen(3022, '0.0.0.0', function() {
+}).listen(8080, '0.0.0.0', function() {
 	consoleLog('Listening on ' + this.address().address + ':' + this.address().port);
 });
