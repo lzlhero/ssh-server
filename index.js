@@ -6,7 +6,7 @@ var inspect = require('util').inspect;
 var buffersEqual = require('buffer-equal-constant-time');
 var ssh2 = require('ssh2');
 var utils = ssh2.utils;
-const debug = true;
+const debug = false;
 
 function consoleLog(...arg) {
 	if (debug) {
